@@ -10,6 +10,8 @@ For more information about the Google Code Jam see the contest website at: [http
 
 ## Qualification Round ##
 
+[http://code.google.com/codejam/contest/1460488/dashboard](http://code.google.com/codejam/contest/1460488/dashboard)
+
 ### A. Speaking in Tongues ###
 
 Built the translation matrix from the sample input that was provided. Sample data provided contained all letter mappings except for 'z' which was easy to determine by process of elimination. The rest of the program just switches the content of the input using the translation matrix.
