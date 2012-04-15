@@ -14,14 +14,16 @@ For more information about the Google Code Jam see the contest website at: [http
 
 Built the translation matrix from the sample input that was provided. Sample data provided contained all letter mappings except for 'z' which was easy to determine by process of elimination. The rest of the program just switches the content of the input using the translation matrix.
 
-Run time in pypy (only input): 0.04 seconds
+**Run time in pypy (only input): 0.04 seconds**
+
 Run time in CPython (only input): 0.02 seconds 
 
 ### B. Dancing with the Googlers ###
 
 For each score, find the best possible score (either standard or surprising) by looking at every combination of 3-judge scores possible in reverse order. Once an appropriate score is found return it. Once each Googlers best 'standard' and 'surprisng' scores have been found, simply go though them in order and increment a counter if the highest number in their score is greater than the threshold. Check the 'standard' score first, then 'surprisng' if we haven't already used up our number of surprising scores, otherwise don't incrememt the counter. The solution is the final counter value.
 
-Run time in pypy (large input): 0.16 seconds
+**Run time in pypy (large input): 0.16 seconds**
+
 Run time in CPython (large input): 0.51 seconds
 
 ### C. Recycled Numbers ###
@@ -30,7 +32,8 @@ Start with n=A and iterate to n=B-1. For any given 'n', find out all the possibl
 
 Note: I first tried a brute force approach which worke for the small input but didn't scale well at all.
 
-Run time in pypy (large input): 14.9 seconds
+**Run time in pypy (large input): 14.9 seconds**
+
 Run time in CPython (large input): 48.6 seconds
 
 ### D. Hall of Mirrors ###
